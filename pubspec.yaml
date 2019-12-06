@@ -1,0 +1,35 @@
+name: henriquearthur
+description: Personal portfolio built with Flutter web.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  rxdart: ^0.22.6
+  bloc_pattern: ^2.5.1
+  http: ^0.12.0+2
+  auto_size_text: ^2.1.0
+  font_awesome_flutter: ^8.5.0
+  universal_html: ^1.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  mockito: ^4.1.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+   - assets/images/projects/icons/
+   - assets/images/projects/screenshots/
+
+scripts:
+  deploy: cp -rf build/web/* ../henriquearthur.github.io
