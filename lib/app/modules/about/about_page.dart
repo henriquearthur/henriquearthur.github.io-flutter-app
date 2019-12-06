@@ -39,8 +39,10 @@ class AboutPage extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 32.0),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+          Wrap(
+            direction: Axis.horizontal,
+            runSpacing: 8.0,
+            spacing: 16.0,
             children: <Widget>[
               SocialButton(
                 title: "GitHub",
@@ -48,14 +50,12 @@ class AboutPage extends StatelessWidget {
                 color: Colors.black54,
                 url: "https://github.com/henriquearthur",
               ),
-              const SizedBox(width: 16.0),
               SocialButton(
                 title: "StackOverflow",
                 icon: FontAwesomeIcons.stackOverflow,
                 color: Color(0xfff48024),
                 url: "https://stackoverflow.com/users/2457045/henrique-arthur",
               ),
-              const SizedBox(width: 16.0),
               SocialButton(
                 title: "LinkedIn",
                 icon: FontAwesomeIcons.linkedin,

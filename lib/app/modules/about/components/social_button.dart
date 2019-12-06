@@ -15,22 +15,21 @@ class SocialButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return HandCursor(
-      child: ClipRRect(
-        borderRadius: BorderRadius.all(Radius.circular(8.0)),
-        child: FlatButton(
-          padding: const EdgeInsets.all(16.0),
-          color: color,
-          onPressed: () => html.window.open(url, url),
-          child: Row(
-            children: <Widget>[
-              Icon(
-                icon,
-              ),
-              const SizedBox(width: 12.0),
-              Text(
-                title,
-              ),
-            ],
+      child: Container(
+        width: 170.0,
+        child: ClipRRect(
+          borderRadius: BorderRadius.all(Radius.circular(8.0)),
+          child: FlatButton(
+            padding: const EdgeInsets.all(16.0),
+            color: color,
+            onPressed: () => html.window.open(url, url),
+            child: Row(
+              children: <Widget>[
+                Icon(icon),
+                const SizedBox(width: 16.0),
+                Text(title),
+              ],
+            ),
           ),
         ),
       ),
