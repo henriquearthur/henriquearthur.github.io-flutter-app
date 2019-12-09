@@ -70,6 +70,7 @@ class ProjectsRepository {
         devInfo: 'Site desenvolvido com Semantic UI, jQuery e PHP.',
         icon: 'assets/images/projects/icons/idhabbo.png',
         screenshot: 'assets/images/projects/screenshots/idhabbo.png',
+        url: 'https://idhabbo.com.br',
       ),
       Project(
         title: 'Papo e Mídia',
