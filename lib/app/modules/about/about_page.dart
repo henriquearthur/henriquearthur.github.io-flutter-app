@@ -56,12 +56,6 @@ class AboutPage extends StatelessWidget {
                 color: Color(0xfff48024),
                 url: "https://stackoverflow.com/users/2457045/henrique-arthur",
               ),
-              SocialButton(
-                title: "LinkedIn",
-                icon: FontAwesomeIcons.linkedin,
-                color: Color(0xff0077b5),
-                url: "https://www.linkedin.com/in/henrique-arthur-a09155119/",
-              ),
             ],
           )
         ],

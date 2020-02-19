@@ -37,6 +37,7 @@ class ProjectBox extends StatelessWidget {
                     fit: BoxFit.contain,
                     image: AssetImage(project.icon),
                   ),
+                  borderRadius: BorderRadius.all(Radius.circular(16.0)),
                 ),
                 width: 128.0,
                 height: 128.0,

@@ -4,6 +4,24 @@ class ProjectsRepository {
   List<Project> getApps() {
     return [
       Project(
+        title: 'PasseFácil',
+        description:
+            'Consulte o saldo e as recargas do seu Vale Transporte Digital PasseFácil de forma simplificada!',
+        devInfo: 'Aplicativo desenvolvido com Flutter e Heroku.',
+        icon: 'assets/images/projects/icons/passefacil.png',
+        url:
+            'https://play.google.com/store/apps/details?id=br.com.henriquearthur.passefacil',
+      ),
+      Project(
+        title: 'Congressos Ser Educacional',
+        description:
+            'App para acompanhar a programação oficial dos congressos do Grupo Ser Educacional.',
+        devInfo: 'Aplicativo desenvolvido com Flutter e Firebase.',
+        icon: 'assets/images/projects/icons/congressos_sereducacional.png',
+        url:
+            'https://play.google.com/store/apps/details?id=br.com.henriquearthur.congressos_sereducacional',
+      ),
+      Project(
         title: 'Congressos UNAMA',
         description:
             'App para acompanhar a programação oficial dos congressos da UNAMA - Universidade da Amazônia.',
@@ -44,6 +62,7 @@ class ProjectsRepository {
             'Site desenvolvido com Bootstrap, jQuery e PHP com Slim Framework.',
         icon: 'assets/images/projects/icons/prohabbo_v4.png',
         screenshot: 'assets/images/projects/screenshots/prohabbo_v4.png',
+        url: 'https://prohabbo.com.br',
       ),
       Project(
         title: 'ProHabbo',
