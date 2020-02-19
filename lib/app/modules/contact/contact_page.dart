@@ -66,7 +66,7 @@ class _ContactPageState extends State<ContactPage> {
             children: <Widget>[
               Text(
                 'Use o formulário abaixo para enviar uma mensagem. Irei respondê-lo via e-mail o mais breve possível.',
-                style: Theme.of(context).textTheme.subtitle,
+                style: Theme.of(context).textTheme.subtitle2,
               ),
               const SizedBox(height: 16.0),
               TextFormField(

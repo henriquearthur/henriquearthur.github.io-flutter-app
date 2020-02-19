@@ -20,12 +20,12 @@ class ViewProjectPage extends StatelessWidget {
             children: <Widget>[
               Text(
                 project.description,
-                style: Theme.of(context).textTheme.display1,
+                style: Theme.of(context).textTheme.headline4,
               ),
               const SizedBox(height: 16.0),
               Text(
                 project.devInfo,
-                style: Theme.of(context).textTheme.display1,
+                style: Theme.of(context).textTheme.headline4,
               ),
               const SizedBox(height: 32.0),
               Center(child: Image.asset(project.screenshot)),

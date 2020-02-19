@@ -21,7 +21,7 @@ class CategoryList extends StatelessWidget {
       children: <Widget>[
         Text(
           title,
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
         ),
         const SizedBox(height: 32.0),
         StreamBuilder(

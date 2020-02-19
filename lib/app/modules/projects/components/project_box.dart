@@ -51,12 +51,12 @@ class ProjectBox extends StatelessWidget {
               children: <Widget>[
                 Text(
                   project.title,
-                  style: Theme.of(context).textTheme.title,
+                  style: Theme.of(context).textTheme.headline6,
                 ),
                 if (project.description != null)
                   Text(
                     project.description,
-                    style: Theme.of(context).textTheme.subtitle,
+                    style: Theme.of(context).textTheme.subtitle2,
                   ),
                 const SizedBox(height: 16.0),
                 HandCursor(
